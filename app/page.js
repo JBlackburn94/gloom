@@ -3,7 +3,7 @@ import logo from "../public/logo.webp";
 
 export default function Home() {
   return (
-    <main className="flex items-start justify-evenly h-screen">
+    <main className="flex items-start justify-evenly h-screen bg-black">
       <div className="absolute z-10 mt-10 p-10 flex flex-col justify-center items-center">
         <Image src={logo} alt="Beauty School logo" className="h-20 w-auto" />
         <a
