@@ -3,13 +3,13 @@ import logo from "../public/logo.webp";
 
 export default function Home() {
   return (
-    <main className="flex items-start justify-evenly h-screen bg-black">
-      <div className="absolute z-10 mt-10 p-10 flex flex-col justify-center items-center">
-        <Image src={logo} alt="Beauty School logo" className="h-20 w-auto" />
+    <main className="flex items-start h-screen bg-black justify-evenly">
+      <div className="absolute z-10 flex flex-col items-center justify-center p-10 mt-3 md:mt-10">
+        <Image src={logo} alt="Beauty School logo" className="w-auto h-20" />
         <a
           href="https://orcd.co/beautyschool-gloom"
           target="_blank"
-          className="mt-10 bg-white text-black rounded-lg p-4 border-black"
+          className="p-2 mt-10 font-semibold text-black uppercase bg-white border-black rounded-lg md:p-4"
         >
           Pre-Save
         </a>
@@ -20,7 +20,7 @@ export default function Home() {
         playsInline
         loop
         controls
-        className="h-screen w-full relative z-0"
+        className="relative z-0 w-full h-screen"
       >
         <source src="./teaser.mp4" type="video/mp4" />
       </video>
